@@ -13,9 +13,9 @@ import javax.persistence.Table;
 public class Todo {
 
     @Id
-    private int id;
+    private Long id;
     @Column(name = "user_id")
-    private int user_id;
+    private Long user_id;
     @Column(name = "todo",length = 250)
     private String todo;
     @Column(name = "status")
